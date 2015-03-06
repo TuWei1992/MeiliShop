@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="RefundOrderListOperateCell" rowHeight="45" id="T31-u5-KLW" customClass="MSRefundOrderListOperateCell">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="45"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="T31-u5-KLW" id="CRm-Rn-Lso">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QQZ-VG-MaG">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="45"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TUP-Pt-obW">
+                                <rect key="frame" x="406" y="8" width="88" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="4gP-Ef-upt"/>
+                                    <constraint firstAttribute="width" constant="88" id="HyY-sg-jaS"/>
+                                </constraints>
+                                <state key="normal" title="不同意退款" backgroundImage="sns_button_normal_r">
+                                    <color key="titleColor" red="0.96706348659999997" green="0.37950644550000001" blue="0.22334588380000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jec-gj-VYX">
+                                <rect key="frame" x="106" y="8" width="88" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="88" id="6Ot-3G-4qG"/>
+                                    <constraint firstAttribute="height" constant="28" id="o1m-hq-1rx"/>
+                                </constraints>
+                                <state key="normal" title="同意退款" backgroundImage="sns_button_normal_r">
+                                    <color key="titleColor" red="0.96706348659999997" green="0.37950644550000001" blue="0.22334588380000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="TUP-Pt-obW" secondAttribute="centerX" multiplier="0.666667" id="B5v-9O-br4"/>
+                            <constraint firstAttribute="centerY" secondItem="TUP-Pt-obW" secondAttribute="centerY" constant="0.5" id="DoP-Yu-j59"/>
+                            <constraint firstAttribute="centerX" secondItem="jec-gj-VYX" secondAttribute="centerX" multiplier="2" id="Wpe-e1-Jbi"/>
+                            <constraint firstAttribute="centerY" secondItem="jec-gj-VYX" secondAttribute="centerY" constant="0.5" id="x1i-2x-Tbr"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="QQZ-VG-MaG" secondAttribute="bottom" id="F6y-Og-mzZ"/>
+                    <constraint firstAttribute="trailing" secondItem="QQZ-VG-MaG" secondAttribute="trailing" id="QVx-qW-bnF"/>
+                    <constraint firstItem="QQZ-VG-MaG" firstAttribute="top" secondItem="CRm-Rn-Lso" secondAttribute="top" id="UBd-Ts-tSs"/>
+                    <constraint firstItem="QQZ-VG-MaG" firstAttribute="leading" secondItem="CRm-Rn-Lso" secondAttribute="leading" id="aAV-SD-uNh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="340" y="140.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="sns_button_normal_r" width="120" height="48"/>
+    </resources>
+</document>

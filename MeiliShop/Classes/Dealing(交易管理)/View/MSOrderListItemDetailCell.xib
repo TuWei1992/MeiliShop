@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="OrderListItemDetailCell" rowHeight="100" id="hai-hb-OEj" customClass="MSOrderListItemDetailCell">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hai-hb-OEj" id="OGj-JB-ftu">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="daw-m0-N8V">
+                        <rect key="frame" x="8" y="10" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="cUv-Vu-VyJ"/>
+                            <constraint firstAttribute="height" constant="80" id="lGz-rT-zKR"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LC 名媛碎花两件套套装连衣裙" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z5J-Dc-Et3">
+                        <rect key="frame" x="96" y="10" width="164" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="颜色:白色" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q9Y-gL-zZg">
+                        <rect key="frame" x="96" y="55" width="52" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="单价:200" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M36-Yz-Tgh">
+                        <rect key="frame" x="96" y="75" width="49" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="数量:1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sfo-xi-3Dd">
+                        <rect key="frame" x="174" y="75" width="35" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="货号:2014041725328957200" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHj-zq-vaO">
+                        <rect key="frame" x="96" y="32" width="159" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="尺码:155/80A" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c8s-q9-fcU">
+                        <rect key="frame" x="174" y="55" width="75" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="MHj-zq-vaO" firstAttribute="leading" secondItem="z5J-Dc-Et3" secondAttribute="leading" id="3xE-ga-XXl"/>
+                    <constraint firstItem="MHj-zq-vaO" firstAttribute="leading" secondItem="q9Y-gL-zZg" secondAttribute="leading" id="FUM-Pr-Z7t"/>
+                    <constraint firstItem="sfo-xi-3Dd" firstAttribute="top" secondItem="c8s-q9-fcU" secondAttribute="bottom" constant="5" id="YWp-fZ-IK0"/>
+                    <constraint firstItem="daw-m0-N8V" firstAttribute="leading" secondItem="OGj-JB-ftu" secondAttribute="leading" constant="8" id="dRd-u4-1fS"/>
+                    <constraint firstItem="c8s-q9-fcU" firstAttribute="leading" secondItem="q9Y-gL-zZg" secondAttribute="trailing" constant="26" id="dc8-S4-TEg"/>
+                    <constraint firstItem="q9Y-gL-zZg" firstAttribute="top" secondItem="c8s-q9-fcU" secondAttribute="top" id="ffd-ae-nmV"/>
+                    <constraint firstItem="M36-Yz-Tgh" firstAttribute="top" secondItem="q9Y-gL-zZg" secondAttribute="bottom" constant="5" id="gNK-fN-rrk"/>
+                    <constraint firstItem="M36-Yz-Tgh" firstAttribute="leading" secondItem="q9Y-gL-zZg" secondAttribute="leading" id="gp1-Zx-31K"/>
+                    <constraint firstItem="q9Y-gL-zZg" firstAttribute="top" secondItem="MHj-zq-vaO" secondAttribute="bottom" constant="8" id="kh3-jf-yYf"/>
+                    <constraint firstItem="z5J-Dc-Et3" firstAttribute="leading" secondItem="daw-m0-N8V" secondAttribute="trailing" constant="8" id="uXu-Oe-4LN"/>
+                    <constraint firstItem="daw-m0-N8V" firstAttribute="top" secondItem="z5J-Dc-Et3" secondAttribute="top" id="uzK-DJ-Xeq"/>
+                    <constraint firstItem="sfo-xi-3Dd" firstAttribute="leading" secondItem="c8s-q9-fcU" secondAttribute="leading" id="wV5-BV-02w"/>
+                    <constraint firstItem="daw-m0-N8V" firstAttribute="top" secondItem="OGj-JB-ftu" secondAttribute="top" constant="10" id="wf2-BD-wko"/>
+                    <constraint firstItem="MHj-zq-vaO" firstAttribute="top" secondItem="z5J-Dc-Et3" secondAttribute="bottom" constant="8" id="zya-wN-6fd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="amount" destination="sfo-xi-3Dd" id="mqp-na-0kt"/>
+                <outlet property="goods_img" destination="daw-m0-N8V" id="bBY-vo-tmn"/>
+                <outlet property="goods_no" destination="MHj-zq-vaO" id="1Nb-FJ-rSq"/>
+                <outlet property="goods_title" destination="z5J-Dc-Et3" id="PvD-2H-q5r"/>
+                <outlet property="price" destination="M36-Yz-Tgh" id="vVt-oQ-9Cc"/>
+                <outlet property="value1" destination="q9Y-gL-zZg" id="o20-Ri-LIU"/>
+                <outlet property="value2" destination="c8s-q9-fcU" id="N48-AT-M20"/>
+            </connections>
+            <point key="canvasLocation" x="268" y="154"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon" width="120" height="120"/>
+    </resources>
+</document>

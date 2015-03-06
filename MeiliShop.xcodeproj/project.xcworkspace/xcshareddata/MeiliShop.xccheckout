@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CE2711AF-4AA4-483A-994C-32B6C8EAC6D0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MeiliShop</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>66a6744b-ee30-477d-922d-9bb399cb4c38++4701</key>
+		<string>http://svn.meilishuo.com/repos/meilishuo/fex/client/ios/trunk/MeiliShop</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MeiliShop.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>66a6744b-ee30-477d-922d-9bb399cb4c38++4701</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>66a6744b-ee30-477d-922d-9bb399cb4c38++4701</key>
+		<string>http://svn.meilishuo.com/repos</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://svn.meilishuo.com/repos/meilishuo/fex/client/ios/trunk/MeiliShop/MeiliShop.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>66a6744b-ee30-477d-922d-9bb399cb4c38++4701</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>66a6744b-ee30-477d-922d-9bb399cb4c38++4701</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MeiliShop</string>
+		</dict>
+	</array>
+</dict>
+</plist>
