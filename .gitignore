@@ -1,6 +1,7 @@
 project.xcworkspace
 xcuserdata
 *.xccheckout
+*.xcodeproj
 config.plist
 *.swp
 .DS_Store
